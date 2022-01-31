@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <header>
+        <div class="bgDiv"> 
+            <img src="./img/bg.jpg" alt="Imagem de fundo cabeçalho"/>
+         </div>
+         <div class="banner">
+             <h1><b> Simple Calculator</b> </h1>
+             <p> Perform calculations with the four main arithmetic expressions</p> 
+             <div class="down"> 
+                 <a href="#calculo"><i class="fas fa-chevron-down"></i></a>
+            </div>           
+         </div>
+    </header>
+    <div class="menuHamburger">
+        <div class="line" id="line1"></div>
+        <div class="line" id="line2"></div>
+        <div class="line" id="line3"></div>
+    </div>
+    
+    <aside class="sidebar">
+        <nav>
+            <ul class="menu">
+                <li class="menuItem"><a href="#" class="menuLink">Home</a></li>
+                <li class="menuItem"><a href="#calculo" class="menuLink">Calculator</a></li>
+                <li class="menuItem"><a href="#about" class="menuLink">About</a></li>
+            </ul>
+        </nav>
+        <div class="socialMedia">
+            <a href="https://www.instagram.com/filipelserpa/"><i class="fab fa-instagram-square"></i></a>
+            <a href="https://github.com/filipelserpa"><i class="fab fa-github-square"></i></a>
+            <a href="https://www.linkedin.com/in/filipe-leandro-serpa-21a36a160/"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </aside>
+    <section id="calculo">
+        <div class="calculator" >
+            <div class="display" id="display">0</div>
+                <div class="calculatorButtons">
+                    <button id="displayClean">CE</button>
+                    <button id="calcClean">C</button>
+                    <button id="backspace">DEL</button>
+                    <button id="mathDiv">/</button>
+                    <button id="digit7">7</button>
+                    <button id="digit8">8</button>
+                    <button id="digit9">9</button>
+                    <button id="mathMultiply">*</button>
+                    <button id="digit4">4</button>
+                    <button id="digit5">5</button>
+                    <button id="digit6">6</button>
+                    <button id="mathSub">-</button>
+                    <button id="digit1">1</button>
+                    <button id="digit2">2</button>
+                    <button id="digit3">3</button>
+                    <button id="mathAdd">+</button>
+                    <button id="reverse">±</button>
+                    <button id="digit0">0</button>
+                    <button id="decimal">,</button>
+                    <button id="equal">=</button>
+            </div>
+        </div>
+    </section>
+    <section class = "about" id="about">
+        <div class="container-about">
+            <h2 class="title-about">About this</h2>
+            <div class = "box-text">    
+                <p class="text-about"> 
+                    Practical project created for the front-end class with 
+                    emphasis on html, CSS and Javascript.
+                    Developed by Filipe Serpa
+                 </p>
+            </div>
+        </div>
+             <div class = "icon-up">
+                <a href="#"><i class ="fas fa-arrow-up" ></i></a>
+             </div>
+    </section>
+    <script src="https://kit.fontawesome.com/dea05c378a.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
